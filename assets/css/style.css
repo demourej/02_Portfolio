@@ -1,0 +1,102 @@
+h1 {
+    font-size: 45px;
+    color: whitesmoke;
+    line-height: 80px;
+    font-family: Monaco;
+}
+
+body {
+    /*font-family: Monaco*/
+  }
+header {
+    border-bottom: #2B3A67 solid 2px;
+    width: 100%;
+    height: 62px;
+    position: fixed;
+    display: inline;
+    z-index: 1;
+    background-color: whitesmoke;
+    font-family: Monaco;
+}
+
+header nav{
+    text-align: right;
+}
+
+header nav ul li {
+    line-height: 60px;
+    display: inline;
+}
+
+header a:link, a:visited {
+        color: #2B3A67;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+}
+
+.contact_button {
+    color: white;
+    text-decoration: none;
+    background-color: #FFC482;
+    padding: 20px;
+    font-weight: bold;
+    border-bottom: #2B3A67 solid 2px;
+    border-top: #FFC482 solid 2px;
+}
+
+main {
+    position: absolute;
+    height: 105%;
+}
+
+#about_me {
+    background-color: #496A81;
+    height: 100%;
+}
+
+.about_two {
+    padding-top: 25%;
+}
+
+.right_side {
+    color: whitesmoke;
+    margin-right: 45%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.float-right {
+    position: absolute;
+    right: 18%;
+    top: 30%;
+}
+
+#my_work {
+    background-color: #619394;
+    color: white;
+    height: 100%;
+    padding-top: 25%;
+}
+
+#contact_me {
+    background-color: #B3AF8F;
+    color: white;
+    height: 40%;
+    text-align: center;
+}
+
+.contact_me article {
+
+}
+
+footer {
+    padding-bottom: 30px;
+    line-height: 30px;
+    background-color: #B3AF8F;
+    color: #2B3A67;
+    z-index: 1;
+    text-align: center;
+}
+

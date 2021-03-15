@@ -104,8 +104,20 @@ footer {
     padding-bottom: 30px;
     line-height: 30px;
     background-color: #B3AF8F;
-    color: #2B3A67;
     z-index: 1;
     text-align: center;
 }
 
+.footer_dark {
+    color: #2B3A67;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px slategray;
+}
+
+.footer_light {
+    color: whitesmoke;
+    font-weight: lighter;
+    font-size: 14px;
+    text-shadow: 1px 1px slategray;
+}

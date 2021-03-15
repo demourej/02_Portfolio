@@ -61,17 +61,25 @@ main {
 
 .right_side {
     color: whitesmoke;
-    margin-right: 45%;
-    margin-left: 10%;
+    margin-right: 18%;
+    margin-left: 15%;
     margin-bottom: 15px;
     text-align: right;
 }
 
-.float-right {
+
+img {
+    float: right;
+    margin-top: 20%;
+    margin-right: 18%;
+}
+
+
+/* .float-right {
     position: absolute;
     right: 18%;
     top: 30%;
-}
+} */
 
 #my_work {
     background-color: #619394;

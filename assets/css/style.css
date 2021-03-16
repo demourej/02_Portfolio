@@ -42,16 +42,26 @@ main {
     display: flex;
     position: absolute;
     height: 100%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 #about_me {
     background-color: #496A81;
-    height: 100%;
+    width: 100%;
+}
+
+
+.about_one{
+    float: right;
+    margin-top: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    margin-left: 0;
 }
 
 .about_two {
-    padding-top: 25%;
+    margin: 25% 35% 25% 10%;
 }
 
 .right_side {
@@ -64,10 +74,10 @@ main {
 
 
 img {
-    float: right;
-    margin-top: 20%;
-    margin-right: 18%;
-    margin-left: 2%;
+    /* margin-right: 18%;
+    margin-left: 2%; */
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -85,16 +95,19 @@ img {
 }
 
 #contact_me {
+    width: 100%;
+    /* padding: 2%; */
     background-color: #B3AF8F;
     color: white;
-    height: 40%;
     text-align: center;
 }
 
 .contact_class {
-    margin-right: 10%;
-    margin-left: 10%;
-
+    padding: 2% 3%;
+    text-decoration: none;
+    color: #2B3A67;
+    font-size: 18px;
+    display: inline-flex;
 }
 
 footer {
@@ -119,6 +132,8 @@ footer {
     font-size: 14px;
     text-shadow: 1px 1px slategray;
 }
+
+
 
 @media screen and (max-width: 768px) {
     nav {

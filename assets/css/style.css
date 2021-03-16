@@ -96,7 +96,6 @@ img {
 
 #contact_me {
     width: 100%;
-    /* padding: 2%; */
     background-color: #B3AF8F;
     color: white;
     text-align: center;
@@ -138,4 +137,10 @@ footer {
 @media screen and (max-width: 768px) {
     nav {
       flex-direction: column;
+    }
+    main {
+        margin-top: 65px;
+    }
+    img {
+        margin-left: 10%;
     }

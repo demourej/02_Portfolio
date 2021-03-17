@@ -1,31 +1,33 @@
+:root {
+    --space-blue: #2B3A67;
+    --dark-electric: #496A81;
+    --steel-teal: #619394;
+    --sage: #B3AF8F;
+    --mellow-apricot: #FFC482;
+    --white: whitesmoke;
+    --gray: slategray;
+}
+
 h1 {
     font-size: 45px;
-    color: whitesmoke;
+    color: var(--white);
     line-height: 80px;
     font-family: Monaco;
 }
 
-body {
-    /*font-family: Monaco*/
-  }
 nav {
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    border-bottom: #2B3A67 solid 2px;
+    border-bottom: var(--space-blue) solid 2px;
     position: fixed;
     z-index: 1;
-    background-color: whitesmoke;
+    background-color: var(--white);
     font-family: Monaco;
 }
 
-/* header nav{
-    text-align: right;
-} */
-
 nav a {
-    /* float: right; */
-    color: #2B3A67;
+    color: var(--space-blue);
     padding: 20px 25px;
     text-align: center;
     text-decoration: none;
@@ -33,7 +35,7 @@ nav a {
 
 .contact_button {
     text-decoration: none;
-    background-color: #FFC482;
+    background-color: var(--mellow-apricot);
     padding: 20px 25px;
     font-weight: bold;
 }
@@ -47,10 +49,9 @@ main {
 }
 
 #about_me {
-    background-color: #496A81;
+    background-color: var(--dark-electric);
     width: 100%;
 }
-
 
 .about_one{
     float: right;
@@ -63,32 +64,22 @@ main {
 }
 
 .right_side {
-    color: whitesmoke;
+    color: var(--white);
     margin-right: 18%;
     margin-left: 15%;
     margin-bottom: 15px;
     text-align: right;
 }
 
-
 img {
-    /* margin-right: 18%;
-    margin-left: 2%; */
     max-width: 100%;
     height: auto;
 }
 
-
-/* .float-right {
-    position: absolute;
-    right: 18%;
-    top: 30%;
-} */
-
 #my_work {
     padding-top: 60px;
-    background-color: #619394;
-    color: white;
+    background-color: var(--steel-teal);
+    color: var(--white);
     width: 100%;
 }
 
@@ -98,9 +89,7 @@ img {
 
 .main_work {
     flex: 1;
-    /* background-color: #b9c6ae; */
-    /* border: black solid 1px; */
-    padding: 5%;
+    padding: 20px;
     text-align: left;
   }
 
@@ -110,7 +99,6 @@ It is used to align the flex items; in our case, the product cards
 */
 .works {
     flex: 4;
-    /* background-color: #fff; */
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -124,18 +112,16 @@ It is used to align the flex items; in our case, the product cards
   We are making the product card not growable, not shrinkable, and with an initial length of 400px 
   */
   .card {
-    /* border: solid 3px whitesmoke;
-    border-radius: 10px; */
     padding: 10px;
     flex: 0 0 400px;
-    background-color: #2B3A67;
+    background-color: var(--space-blue);
     text-align: center;
   }
   
   .card header {
     padding-bottom: 10px;
     font-size: 20px;
-    color: whitesmoke;
+    color: var(--white);
   }
   
   .card p {
@@ -148,8 +134,8 @@ It is used to align the flex items; in our case, the product cards
 
 #contact_me {
     width: 100%;
-    background-color: #B3AF8F;
-    color: white;
+    background-color: var(--sage);
+    color: var(--white);
     text-align: center;
 }
 
@@ -164,7 +150,7 @@ It is used to align the flex items; in our case, the product cards
 footer {
     padding-bottom: 30px;
     line-height: 30px;
-    background-color: #B3AF8F;
+    background-color: var(--sage);
     z-index: 1;
     text-align: center;
     width: 100%;
@@ -174,17 +160,15 @@ footer {
     color: #2B3A67;
     font-weight: bold;
     font-size: 16px;
-    text-shadow: 1px 1px slategray;
+    text-shadow: 1px 1px var(--gray);
 }
 
 .footer_light {
-    color: whitesmoke;
+    color: var(--white);
     font-weight: lighter;
     font-size: 14px;
-    text-shadow: 1px 1px slategray;
+    text-shadow: 1px 1px var(--gray);
 }
-
-
 
 @media screen and (max-width: 768px) {
     nav {
